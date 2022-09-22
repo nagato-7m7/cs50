@@ -15,21 +15,21 @@ text = input("File name: ")
 # find period
 text = text.split('.')
 # var for last item, lowercase, no spaces
-extension = text[-1].lower().strip()
+ext = text[-1].lower().strip()
 
-if extension == "gif":
+if ext == "gif":
     print("image/gif")
-elif extension == "jpg":
+elif ext == "jpg":
     print("image/jpeg")
-elif extension == "jpeg":
+elif ext == "jpeg":
     print("image/jpeg")
-elif extension == "png":
+elif ext == "png":
     print("image/png")
-elif extension == "pdf":
+elif ext == "pdf":
     print("application/pdf")
-elif extension == "txt":
+elif ext == "txt":
     print("text/plain")
-elif extension == "zip":
+elif ext == "zip":
     print("application/zip")
 else:
     print("application/octet-stream")
